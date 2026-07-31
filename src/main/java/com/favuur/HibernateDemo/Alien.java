@@ -5,9 +5,10 @@ import javax.persistence.Id;
 
 @Entity
 public class Alien
-{	@Id
+{	
 	private String name;
 	private String colour;
+	@Id
 	private int aid;
 
 
